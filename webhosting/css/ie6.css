@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#slidedeck_frame {
+	position: relative;
+	margin: 0 auto;
+	width: 910px;
+    height: 300px;
+}
+
+/* Vertical nav in the spine */
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav {
+    height: 70px;
+    width: 25px;
+    background: none;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 0 0;
+    margin: 0;
+    top: 0;
+    left: 125px;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: -7px 0;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: -7px 0;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: -7px 0;
+}
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li {
+    position: relative;
+    width: 25px;
+    height: 12px;
+    line-height: 12px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    clear: left;    
+}
+/*
+ * The SlideDeck vertical slide position indicator.
+ * 
+ * This is the element that slides behind the default navigation link list to
+ * show which is the current vertical slide being viewed. This should be given
+ * similar dimensions to the vertical slide navigation links.
+ * 
+ * NOTE: This element is not used in this skin, so it is hidden
+ */
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow { display: none; }
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li a {
+    position: relative;
+    display: block;
+    padding: 12px 0 0 0;
+    margin: 0;
+    width: 25px;
+    height: 0;
+    overflow: hidden;
+    line-height: 12px;
+    background: url('../images/vertical-nav.png') 0 0 no-repeat;
+}
+/* Vertical slide navigation style for the currently active vertical slide navigation link */
+.skin-slidedeck dl.slidedeck ul.verticalSlideNav li.active a {
+    background-position: 0 -24px;
+}
+/* Vertical slide navigation link style when the parent horizontal slide is active */
+.skin-slidedeck dl.slidedeck dt.active ul.verticalSlideNav li.active a {
+    background-position: 0 -12px;
+}
+
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li.verticalSlide_1 { background: #fff; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_image {
+	margin: 0 0 0 20px;
+	width: 355px;
+	float: left;
+	text-align: right;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_text {
+	margin: 25px 20px 0 0;
+	width: 330px;
+	float: right;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_2 div.case_image { margin-top: 8px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_2 div.case_text { margin-top: 60px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_3 div.case_image { margin-top: 2px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_3 div.case_text { margin-top: 30px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_4 div.case_image { margin-top: 16px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_4 div.case_text { margin-top: 30px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_5 div.case_image { margin-top: 16px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_5 div.case_text { margin-top: 63px; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_text h5,
+.skin-slidedeck dl.slidedeck dd.slide h5.small-title {
+	font-family: Georgia, serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #666;
+    margin-top: -10px 0 0;
+}
+.skin-slidedeck dl.slidedeck ul.slidesVertical li.case h4.title {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #1e1e1e;
+    margin: 0;
+}
+.skin-slidedeck dl.slidedeck ul.slidesVertical li.case p.sub {
+	font-size: 16px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #858585;
+	margin: 5px 0 10px;
+}
+.skin-slidedeck dl.slidedeck ul.slidesVertical li.case p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #666;
+}
+
+/**
+ * BEGIN : Vertical slide previous/next button styling.
+ */
+.skin-slidedeck dl.slidedeck a.vertical-prev-next {
+	position: absolute;
+    display: none;
+    z-index: 20000;
+	width: 27px;
+	height: 0;
+	padding: 27px 0 0;
+	overflow: hidden;
+	line-height: 27px;
+	cursor: pointer;
+    left: 50%;
+    margin: 0 0 0 -13px;
+    background: url('../images/vertical-prev-next.png');
+}
+.skin-slidedeck dl.slidedeck dd.slide:hover a.vertical-prev-next { display: block; }
+.skin-slidedeck dl.slidedeck a.vertical-prev-next.next {
+	bottom: 6px;
+	background-position: -27px 0;
+}
+.skin-slidedeck dl.slidedeck a.vertical-prev-next.previous {
+	top: 6px;
+	background-position: 0 0;
+}
+.skin-slidedeck dl.slidedeck li.case a.next { bottom: 31px; }
+.skin-slidedeck dl.slidedeck a.next:hover {
+	background-position: -27px -27px;
+}
+.skin-slidedeck dl.slidedeck a.previous:hover {
+	background-position: 0 -27px;
+}
+.skin-slidedeck dl.slidedeck:hover a.vertical-nav {
+	display: block;
+}
+/**
+ * END : Vertical slide previous/next button styling.
+ */

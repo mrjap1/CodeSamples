@@ -1,0 +1,46 @@
+CACHE MANIFEST
+# version 0.1
+CACHE:
+corelliwebhosting.htm
+
+imgs/background-bg.png
+imgs/corelli-logo.png
+imgs/bg-body2.gif
+imgs/chat_3.png
+imgs/bbb_logo.png
+imgs/telephone_black.png
+imgs/sponsors.png
+imgs/seperator1.png
+imgs/web-server-ch.jpg
+imgs/Server2.jpg
+imgs/web_server_secure.jpg
+imgs/servers.jpg
+
+
+imgs/br.png
+imgs/co.png
+imgs/gb.png
+imgs/il.png
+imgs/in.png
+imgs/mx.png
+imgs/intl.png
+
+js/html5IEfuntional.js
+js/jquery-1.5.1.js
+js/modernizr-1.7.min.js
+
+css/styles.css
+css/main.css
+css/menu.css
+css/html5IEfuntional.css
+
+./fonts/GreatLakesNF-fontfacekit/GREALN__-webfont.eot');
+./fonts/GreatLakesNF-fontfacekit/GREALN__-webfont.eot?#iefix') format('embedded-opentype'),
+./fonts/GreatLakesNF-fontfacekit/GREALN__-webfont.woff') format('woff'),
+./fonts/GreatLakesNF-fontfacekit/GREALN__-webfont.ttf') format('truetype'),
+./fonts/GreatLakesNF-fontfacekit/GREALN__-webfont.svg#GreatLakesNFRegular') format('svg');
+    font-weight: normal;
+	font-style: normal;
+
+NETWORK:
+*

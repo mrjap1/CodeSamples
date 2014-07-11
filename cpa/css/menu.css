@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* MENU NAVIGATION
+=============================== */
+#navcontainer {
+	margin:0 auto;
+	padding-left:10px;
+	padding-top:12px;
+	width:950px;
+	height:50px;
+	/*padding-left:130px;*/
+	white-space:nowrap;
+	background-color:#ececec;
+	background-image: url(../img/navigation-menu-bkgrd-white2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+ }
+#navcontainer h2 {clear:both;padding-top:20px;}
+#navcontainer ul {list-style:none;margin:0;padding:0;}
+#navcontainer li {float:left;width:125px;margin:0;padding:0;text-align:center;}
+#navcontainer li a {
+	display:block;
+	padding:7px 10px;
+	height:100%;
+	color:#2f4052;
+	white-space:nowrap;
+	text-decoration:none;
+	border-left:1px solid #fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-shadow:0 2px 2px #79b3f3;
+	font-weight: bold;
+	font-size: 85%;
+}
+#navcontainer li a {
+	background-image: url(../img/bg2b.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+#navcontainer li a:hover, li a:focus, li a:active {
+	background-position:-150px 0;
+	text-shadow:0 2px 2px #798490;
+	color:#FFF;
+}
+#navlist a {
+	background-image: url(../img/bg2b.jpg);
+	background-repeat: repeat;
+	background-position: -20px 35px;
+}
+	/*#b a {background:url(bg2.jpg) repeat 0 0;}
+	#c a {background:url(bg3.jpg) repeat 0 0;}
+	#d a {background:url(bg4.jpg) repeat 0 0;}*/	
+
+
+/*#navcontainer li a:first-child {
+	border-right:1px solid #fff;
+}*/	
+
+.none {
+	border-left:none;
+}
+
+.navimage {background-position: -20px 35px;}
+
+/*.navimagenudge {padding-left:30px;}*/

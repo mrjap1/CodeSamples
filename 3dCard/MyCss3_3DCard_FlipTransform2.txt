@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="description" content="Cards Flipped Over By CSS3 Technique">
+<meta name="keywords" content="HTML5,CSS3,">
+<title>CSS3 3D Transformations</title>
+<style>
+
+
+
+div.card div
+{
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+div.card div.back
+{
+	-webkit-transform: perspective(400px) rotateY(0deg);
+	transform: perspective(400px) rotateY(0deg);
+}
+
+div.front
+{
+	-webkit-transform: perspective(400px) rotateY(-179.9deg);
+	transform: perspective(400px) rotateY(-179.9deg);
+}
+
+div.card:hover div.back, div.card:focus div.back
+{
+	-webkit-transform: perspective(400px) rotateY(179.9deg);
+	transform: perspective(400px) rotateY(179.9deg);
+}
+
+div.card:hover div.front, div.card:focus div.front
+{
+	-webkit-transform: perspective(400px) rotateY(0deg);
+	transform: perspective(400px) rotateY(0deg);
+}
+
+
+
+/******************************************************
+******************* CARD STYLES ***********************
+******************************************************/
+
+
+body
+{
+	font-family: sans-serif;
+	font-size: 100%;
+	margin: 20px;
+	color: #eee;
+	background-color: #333;
+}
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+}
+
+div.lineup
+{
+
+float:left;
+
+}
+
+
+div.card
+{
+	font-size: 2em;
+	width: 176px;
+	height: 246px;
+	margin: 0 auto;
+	cursor: pointer;
+        margin: 20px 20px 0 20px;
+}
+
+div.card div
+{
+	position: absolute;
+	width: 160px;
+	height: 230px;
+	font-size: 2em;
+	text-align: center;
+	line-height: 230px;
+        color: #D53C4E;
+	background-color: #000;
+	border: 8px solid #fff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+
+div.card div span
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.5em;
+	width: auto;
+	line-height: 1em;
+}
+
+div.card div span:last-child
+{
+	left: auto;
+	top: auto;
+	right: 0;
+	bottom: 0;
+	transform: rotate(180deg);
+}
+
+div.card div.back
+{
+	font-size: 0.8em;
+	background: 
+		linear-gradient(115deg, transparent 75%, rgba(255,255,255,.3) 75%) 0 0,
+		linear-gradient(245deg, transparent 75%, rgba(255,255,255,.3) 75%) 0 0,
+		linear-gradient(115deg, transparent 75%, rgba(255,255,255,.3) 75%) 7px -15px,
+		linear-gradient(245deg, transparent 75%, rgba(255,255,255,.3) 75%) 7px -15px,
+                /*#36c;*/
+		#151B54;
+	background-size: 15px 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>MY CSS3 3D Transformations</h1>
+
+<div class="card lineup">
+	<div class="front"><span>7&#x2665;</span> &#x2665; <span>7&#x2665;</span></div>
+	<div class="back"></div>
+</div>
+
+<div class="card lineup">
+	<div class="front"><span>3&#x2666;</span> &#x2666; <span>3&#x2666;</span></div>
+	<div class="back"></div>
+</div>
+
+<div class="card lineup">
+	<div class="front"><span>2&#x2663;</span> &#x2663; <span>2&#x2663;</span></div>
+	<div class="back"></div>
+</div>
+<p>Created By James Arthur Phillips I</p>
+</body>
+</html>

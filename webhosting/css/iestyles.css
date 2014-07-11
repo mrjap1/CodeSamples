@@ -1,0 +1,54 @@
+#box {
+        /* CSS3 syntax */
+	box-shadow: 5px 5px 5px #cccccc;
+	-webkit-box-shadow: 5px 5px 5px #cccccc;
+	-moz-box-shadow: 5px 5px 5px #cccccc;
+
+        /* Place any other shared CSS properties here, except for those in the next rule */
+        margin: 20px auto;
+	text-align: center;
+}
+
+#box,
+body.ie6 #box .content,
+body.ie7 #box .content,
+body.ie8 #box .content {
+        /*
+         * Any width, height, padding, border and background information goes here, so it is
+         * shared between the CSS3 and legacy-IE solutions
+         */
+	width: 200px;
+	padding: 10px;
+	background: white;
+	border: solid 1px black;
+}
+
+body.ie6 #box,
+body.ie7 #box,
+body.ie8 #box {
+        /* This contains the color of the shadow in the CSS3 syntax */
+	background: #cccccc;
+
+        /* This contains the blur-radius in the CSS3 syntax */
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5);
+
+        /* You must remove the border in IE, since it will be replaced in the next rule */
+	border: none;
+}
+
+body.ie6 #box .content,
+body.ie7 #box .content,
+body.ie8 #box .content {
+	position: relative;
+
+        /*
+         * Margins must be added here to place the box above the shadow correctly.
+         * The margin-left and margin-right properties should be -2 times the CSS3 x-offset.
+         * The margin-top and margin-bottom properties should be -2 times the CSS3 y-offset.
+        /
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+        margin-right: -10px;
+}

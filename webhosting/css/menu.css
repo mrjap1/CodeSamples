@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* NAVIGATION MENU 
+============================================== */
+
+nav {
+	width:996px;
+	margin: 0 auto;
+}	
+
+#nav {
+    bottom: 40px;
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    text-align: left;
+    z-index: 100000;
+}
+#nav li {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#nav li a, #s4 strong {
+    margin: 0 3px;
+    padding: 0 1px;
+    text-decoration: none;
+}
+#nav a:focus {
+    outline: medium none;
+}
+   
+/*  This is for the full top level oval shape navigation menu styles*/    
+#navigation {
+	color: #F37721;
+    font-family: 'myriad-pro-1','myriad-pro-2',sans-serif;
+    font-size: 14px;
+	font-weight: bold;
+	border-radius-top-left: 1em;
+    border-radius-top-right: 1em;
+	border-radius-bottom-left: 1em;
+	border-radius-bottom-right: 1em; 		
+	-webkit-border-top-left-radius: 1em;
+	-webkit-border-top-right-radius: 1em;
+	-webkit-border-bottom-left-radius: 1em;
+	-webkit-border-bottom-right-radius: 1em;
+	-moz-border-radius-topright: 1em;
+	-moz-border-radius-topleft: 1em;
+	-moz-border-radius-bottomright: 1em;
+	-moz-border-radius-bottomleft: 1em;
+	-o-border-radius-topright: 1em;
+	-o-border-radius-topleft: 1em;
+	-o-border-radius-bottomright: 1em;
+	-o-border-radius-bottomleft: 1em;
+	 box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+    background: none repeat-x scroll 0 -110px #F2F2F2;
+    display: inline-block;
+    line-height: 100%;
+	margin-bottom: 0;
+    margin-top: 0;
+    padding: 7px 6px 0;
+	position: absolute;
+	bottom:0;
+    width: 948px;
+    z-index: 20001;
+	/*position: relative;*/
+	 /*margin-bottom: 18px;*/
+	/*font-weight: 700;*/
+	/*border-radius: 1em 1em 1em 1em;
+	-webkit-border-radius: 1em 1em 1em 1em;
+	-moz-border-radius: 1em 1em 1em 1em;
+	-o-border-radius: 1em 1em 1em 1em;;*/
+}
+
+#navigation .livechat_button a:hover {
+    background: none repeat scroll 0 0 #E1630F;
+    color: #FFFFFF;
+}
+#navigation a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+/*  This is for the Top Main Oval Shape Hover Menu Styles*/
+#navigation .current a, #navigation li:hover > a {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	border: inset solid 1px #e7e7e7;
+    background: none repeat-x scroll 0 -40px #D9DADC;
+    color: #444444;
+	color:06f;
+    text-shadow: 0 2px 0 #FFFFFF;
+}
+
+#navigation ul li:hover a, #navigation li:hover li a {
+    -moz-box-shadow: none;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #666666;
+    font-weight: 400;
+	
+}
+
+#navigation ul a:hover {
+		border-radius-top-left: 0;
+        border-radius-top-right: 0;
+		border-radius-bottom-left: 0; 
+		border-radius-bottom-right: 0; 		
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-radius-topright: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomright: 0;
+		-moz-border-radius-bottomleft: 0;
+		-o-border-radius-topright: 0;
+		-o-border-radius-topleft: 0;
+		-o-border-radius-bottomright: 0;
+		-o-border-radius-bottomleft: 0;
+		background: none repeat-x scroll 0 -100px #E0E0E0 !important;
+		color: #3F3F3F !important;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+		
+		/*border-radius: 0 0 0 0;
+		-moz-border-radius: 0 0 0 0;
+		-webkit-border-radius:0 0 0 0;
+		-o-border-radius: 0 0 0 0;*/
+}
+
+#navigation li:hover > ul {
+    display: block;
+}
+
+/* This Makes The Round Corners & Shadow For the Dropdown Menu */
+#navigation ul {
+	    border-radius-top-left: 8px;
+        border-radius-top-right: 8px;
+		border-radius-bottom-left: 8px; 
+		border-radius-bottom-right: 8px; 		
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-top-right-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-moz-border-radius-topright: 8px;
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-bottomright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		-o-border-radius-topright: 8px;
+		-o-border-radius-topleft: 8px;
+		-o-border-radius-bottomright: 8px;
+		-o-border-radius-bottomleft: 8px;
+		 box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		 -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		 -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		 -o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		 background: none repeat-x scroll 0 0 #FFFFFF;
+		 border: 1px solid #B4B4B4;
+		 display: none;
+		 left: 0;
+		 margin: 0;
+		 padding: 0;
+		 position: absolute;
+		 top: 35px;
+		 width: 190px;
+		 /*
+		    border-radius: 8px 8px 8px 8px;
+			box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+			-webkit-border-radius: 8px 8px 8px 8px;
+			-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+			-moz-border-radius: 8px 8px 8px 8px;
+			-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+			-o-border-radius: 8px 8px 8px 8px;
+			-o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+		 */
+}
+#navigation ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation ul a {
+    font-size: 12px;
+	font-weight: bold;
+    /*font-weight: 400;*/
+}
+#navigation ul ul {
+    left: 181px;
+    top: -3px;
+}
+
+/* This makes the Round Corners Top & Bottom background hover Dropdown color */
+#navigation ul li:first-child > a {
+    border-radius-topleft: 9px;
+    border-radius-topright: 9px;
+	-webkit-border-radius-topleft: 9px;
+    -webkit-border-radius-topright: 9px;
+	-moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+	-o-border-radius-topleft: 9px;
+    -o-border-radius-topright: 9px;
+}
+#navigation ul li:last-child > a {
+    border-radius-bottomleft: 9px;
+    border-radius-bottomright: 9px;
+	-webkit-border-radius-bottomleft: 9px;
+    -webkit-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+    -moz-border-radius-bottomright: 9px;
+	-o-border-radius-bottomleft: 9px;
+    -o-border-radius-bottomright: 9px;
+}
+
+
+#navigation:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* This is for the oval shape top hover menu styles */
+#navigation a, #navigation .livechat_button a {
+	    border-radius-top-left: 0.8em;
+        border-radius-top-right: 0.8em;
+		border-radius-bottom-left: 0.8em; 
+		border-radius-bottom-right: 0.8em; 		
+		-webkit-border-top-left-radius: 0.8em;
+		-webkit-border-top-right-radius: 0.8em;
+		-webkit-border-bottom-left-radius: 0.8em;
+		-webkit-border-bottom-right-radius: 0.8em;
+		-moz-border-radius-topright: 0.8em;
+		-moz-border-radius-topleft: 0.8em;
+		-moz-border-radius-bottomright: 0.8em;
+		-moz-border-radius-bottomleft: 0.8em;
+		-o-border-radius-topright: 0.8em;
+		-o-border-radius-topleft: 0.8em;
+		-o-border-radius-bottomright: 0.8em;
+		-o-border-radius-bottomleft: 0.8em;
+		color:#06F;
+        display: block;
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0;
+		padding: 8px 16px;
+		text-decoration: none;
+	
+		/*color: #717171;*/
+		/*font-size: 13px;
+		font-weight: 400;
+		padding: 8px 15px;*/
+		/*
+		border-radius: 0.8em 0.8em 0.8em 0.8em;
+		-webkit-border-radius: 0.8em 0.8em 0.8em 0.8em;
+		-moz-border-radius: 0.8em 0.8em 0.8em 0.8em;
+		-o-border-radius: 0.8em 0.8em 0.8em 0.8em;
+		*/
+}
+
+/* This makes the Main Top Menu Horizontal*/
+#navigation li, #navigation .livechat_button {
+    float: left;
+    list-style: none outside none;
+    margin: 0 3px;
+    padding: 0 0 8px;
+    position: relative;
+}
+
+.placement {position:absolute; bottom:0;}
+
+.over5 {margin-left:5px;}
+

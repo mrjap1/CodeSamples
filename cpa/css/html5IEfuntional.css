@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* HTML5 Standards*/
+
+	html, body, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p,
+		 blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+			margin:0;
+			padding:0;
+			border:0;
+		}
+		
+/* HTML5 Display Rule for Older Browsers*/
+
+    article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, 
+    section, summary, video {
+			display:block;
+       }

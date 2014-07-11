@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* HTML5 DISPLAY STYLES
+================================================ */
+/*abbr,acronym,address,applet,area,article,aside,audio,b,base,basefont,bdo,big,blockquote,button,canvas,caption,center,cite,code,col,colgroup,command,datalist,dd,del,details,dfn,dir,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,frame,frameset,h1,h2,h3,h4,h5,h6,head,header,hgroup,hr,html,i,iframe,img,input,ins,keygen,kbd,label,legend,li,link,map,mark,menu,meta,meter,nav,noframes,noscript,object,ol,optgroup,option,output,param,pre,progress,q,rp,rt,ruby,s,samp,section,select,small,source,span,strike,strong,style,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video,wbr,xmp {
+	  display:block;
+}*/
+
+
+/* HTML5 Standards*/
+
+	html, body, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p,
+		 blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+			margin:0;
+			padding:0;
+			border:0;
+		}
+		
+/* HTML5 Display Rule for Older Browsers*/
+
+    article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, 
+    section, summary, video {
+			display:block;
+       }
+
+
+/* CLEARFIX STYLES
+================================================ */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
