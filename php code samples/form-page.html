@@ -1,0 +1,50 @@
+<!DOCTYPE HTML> 
+<html lang="en-us">
+<head>
+<meta charset="utf-8"/>
+	<title>PHP Form to E-mail Form</title>
+<!-- define some style elements-->
+<style>
+label,a 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px; 
+}
+
+</style>	
+<!-- Script for vaidating the form-->
+<script language="JavaScript" src="scripts/myValidationScript.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+<!-- Start code for the form-->
+<form method="post" name="myemailform" action="form-to-email.php">
+	<p>
+		<label for='name'>Enter Name: </label><br>
+		<input type="text" name="name">
+	</p>
+	<p>
+		<label for='email'>Enter Email Address:</label><br>
+		<input type="text" name="email">
+	</p>
+	<p>
+		<label for='message'>Enter Message:</label> <br>
+		<textarea name="message"></textarea>
+	</p>
+	<input type="submit" name='submit' value="submit">
+</form>
+
+<script language="JavaScript">
+ var frmvalidator  = new Validator("myemailform");
+ frmvalidator.addValidation("name","req","Please provide your name"); 
+ frmvalidator.addValidation("email","req","Please provide your email"); 
+ frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+<p>
+<a href='www.jap1graphics.com/index.php'
+>PHP form</a>
+</p>
+</body>
+</html>
