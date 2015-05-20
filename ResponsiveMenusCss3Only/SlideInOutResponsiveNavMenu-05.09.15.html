@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-us"> 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<title>Slide In /Out Navigation Using HTML5 & CSS3</title>
+<style type="text/css">
+*{padding:0; margin:0;}
+body {font-family: sans-serif; overflow: hidden;}
+a {text-decoration: none; color:#00A5CC; font-size:14px;}
+li {list-style-type:none;}
+
+header {
+	width:100%;
+	height:50px;
+	margin:auto;
+	background:#f1f1f1;
+	border-bottom: 1px solid #444;
+	z-index:99;   
+
+}
+
+#brand {
+	float:left;
+	margin-left:10px;
+	line-height:50px;
+	color:#808080;
+	font-size:30px;
+	font-weight:bolder;
+}
+
+nav { width:100%; text-align: center;}
+
+nav a {
+ display: block;
+ padding: 15px 0;
+ background:#D9C9A2;
+ border-bottom: 1px solid #C5AD74;
+ color:#C5AD76;
+ font-weight: bolder;
+}
+
+
+nav a:hover {background:#E5DAc0; color:#fff;}
+nav li:last-child a {border-bottom:none;}
+
+/*------------------------------------------*/
+
+.menu {
+	width:240px;
+	height:100%;
+	background:#DCCDA8;
+    position:absolute;
+    left:-240px;
+    transition: all .2s ease-in-out;
+   -webkit-transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   -ms-transition: all .2s ease-in-out;
+   -0-transition: all .2s ease-in-out;
+}
+
+.menu-icon {
+  margin:4px 4px 0 0;
+  padding:10px 20px;
+  background:#E5DAC0;
+  font-weight: bolder;
+  color:#333;
+  cursor:pointer;
+  float:right;
+  overflow: hidden;
+  border radius:6px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -ms-border-radius:6px;
+  -o-border-radius:6px;
+}
+
+#menuToggle {display:none;}
+
+#menuToggle:checked ~ .menu {position:absolute; left:0;}
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<input type="checkbox" id="menuToggle"/>
+<label for="menuToggle" class="menu-icon">&#9776;</label>
+
+<header>
+  <div id="brand">Slide In / Out Navigation</div>
+</header>
+
+<nav class="menu"> 
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">WORK</a></li>
+    <li><a href="#">INSPIRATION</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">CONTACT</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
