@@ -1,0 +1,26 @@
+{
+  "name": "chatio",
+  "version": "1.0.0",
+  "description": "Simple live chat application using express, socket.io, node, css, html, jquery, javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "node",
+    "jquery",
+    "javascript",
+    "html",
+    "css",
+    "heroku"
+  ],
+  "author": "James Arthur Phillips I",
+  "license": "ISC",
+  "dependencies": {
+  	"socket.io": "*",
+  	"express": "*"
+  }
+}
+
