@@ -1,0 +1,24 @@
+{
+  "name": "javascript-test-gft",
+  "version": "1.0.0",
+  "description": "Simple List - Create a simple list application - GFT UK",
+  "main": "my-app-scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jquery",
+    "javascript",
+    "todo",
+    "list"
+  ],
+  "author": "James Arthur Phillips I",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt-contrib-cssmin": "^1.0.1"
+  }
+}

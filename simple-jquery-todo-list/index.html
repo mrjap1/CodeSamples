@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Random Task List</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A todo list with a live counter">
+    <meta name="keywords" content="todo, list, counter">
+	<meta name="Author" content="James Arthur Phillips I">
+    <link rel="stylesheet" type="text/css" href="css/my-app-styles.css"/>
+</head>
+<body>
+
+<!-- /-------------// HTML CODE STARTS HERE //-------------/ -->
+
+    <h1>Simple List Application</h1>
+     <label>
+       <input type="text" id="enter_task" placeholder="Add items to list">
+     </label>
+       <input type="submit" id="add" value="Add">
+     <p>
+       <ul id="todo_list"></ul>
+     </p>
+
+    <p class="count-text">There are <span id="counter">0</span> items in list.</p>
+     
+    
+<!-- /------------// JAVASCRIPT - JQUERY //---------------/ -->
+
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src='js/modernizr-1.5.min.js'></script>
+    <script src="js/my-app-scripts.js"></script>
+</body>
+</html>
