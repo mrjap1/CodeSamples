@@ -1,0 +1,48 @@
+﻿body
+{
+    background:#e2e2e2;
+}
+
+* {
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 2px;
+}
+
+h1 {
+     font-family:"Oswald", Arial, Helvetica, sans-serif;
+}
+
+label, input {
+   margin-bottom:7px;
+}
+.centered-table {
+      margin-left: auto;
+      margin-right: auto;
+      /*max-width:900px;*/
+}
+
+/*
+th {
+    background:#fff;
+}
+
+
+
+table > tbody > th > tr:nohover  { 
+    background:#fff !important;
+}
+     
+    
+*/
+
+table, td, th {
+    border: 1px solid #333 !important;
+    text-transform: capitalize;
+}
+
+table tr:hover {
+      cursor:pointer;
+      color:#ff0 !important; 
+      font-style:italic;
+      background:#808080 !important;
+}

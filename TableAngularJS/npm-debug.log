@@ -1,0 +1,1436 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\mrjap1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.3
+3 info using node@v4.4.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData autoprefixer-core
+20 silly mapToRegistry name autoprefixer-core
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'autoprefixer-core',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'autoprefixer-core',
+23 silly mapToRegistry   name: 'autoprefixer-core',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer-core
+25 silly fetchNamedPackageData grunt
+26 silly mapToRegistry name grunt
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'grunt',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'grunt',
+29 silly mapToRegistry   name: 'grunt',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/grunt
+31 silly fetchNamedPackageData grunt-angular-templates
+32 silly mapToRegistry name grunt-angular-templates
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'grunt-angular-templates',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'grunt-angular-templates',
+35 silly mapToRegistry   name: 'grunt-angular-templates',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/grunt-angular-templates
+37 silly fetchNamedPackageData grunt-concurrent
+38 silly mapToRegistry name grunt-concurrent
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'grunt-concurrent',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'grunt-concurrent',
+41 silly mapToRegistry   name: 'grunt-concurrent',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+43 silly fetchNamedPackageData grunt-contrib-clean
+44 silly mapToRegistry name grunt-contrib-clean
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'grunt-contrib-clean',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'grunt-contrib-clean',
+47 silly mapToRegistry   name: 'grunt-contrib-clean',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+49 silly fetchNamedPackageData grunt-contrib-concat
+50 silly mapToRegistry name grunt-contrib-concat
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'grunt-contrib-concat',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'grunt-contrib-concat',
+53 silly mapToRegistry   name: 'grunt-contrib-concat',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-concat
+55 silly fetchNamedPackageData grunt-contrib-connect
+56 silly mapToRegistry name grunt-contrib-connect
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'grunt-contrib-connect',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'grunt-contrib-connect',
+59 silly mapToRegistry   name: 'grunt-contrib-connect',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+61 silly fetchNamedPackageData grunt-contrib-copy
+62 silly mapToRegistry name grunt-contrib-copy
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'grunt-contrib-copy',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'grunt-contrib-copy',
+65 silly mapToRegistry   name: 'grunt-contrib-copy',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+67 silly fetchNamedPackageData grunt-contrib-cssmin
+68 silly mapToRegistry name grunt-contrib-cssmin
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'grunt-contrib-cssmin',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'grunt-contrib-cssmin',
+71 silly mapToRegistry   name: 'grunt-contrib-cssmin',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+73 silly fetchNamedPackageData grunt-contrib-htmlmin
+74 silly mapToRegistry name grunt-contrib-htmlmin
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'grunt-contrib-htmlmin',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'grunt-contrib-htmlmin',
+77 silly mapToRegistry   name: 'grunt-contrib-htmlmin',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-htmlmin
+79 silly fetchNamedPackageData grunt-contrib-imagemin
+80 silly mapToRegistry name grunt-contrib-imagemin
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'grunt-contrib-imagemin',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'grunt-contrib-imagemin',
+83 silly mapToRegistry   name: 'grunt-contrib-imagemin',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-imagemin
+85 silly fetchNamedPackageData grunt-contrib-jshint
+86 silly mapToRegistry name grunt-contrib-jshint
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'grunt-contrib-jshint',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'grunt-contrib-jshint',
+89 silly mapToRegistry   name: 'grunt-contrib-jshint',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+91 silly fetchNamedPackageData grunt-contrib-uglify
+92 silly mapToRegistry name grunt-contrib-uglify
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'grunt-contrib-uglify',
+95 silly mapToRegistry   name: 'grunt-contrib-uglify',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+97 silly fetchNamedPackageData grunt-contrib-watch
+98 silly mapToRegistry name grunt-contrib-watch
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'grunt-contrib-watch',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'grunt-contrib-watch',
+101 silly mapToRegistry   name: 'grunt-contrib-watch',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+103 silly fetchNamedPackageData grunt-filerev
+104 silly mapToRegistry name grunt-filerev
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'grunt-filerev',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'grunt-filerev',
+107 silly mapToRegistry   name: 'grunt-filerev',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/grunt-filerev
+109 silly fetchNamedPackageData grunt-google-cdn
+110 silly mapToRegistry name grunt-google-cdn
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'grunt-google-cdn',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'grunt-google-cdn',
+113 silly mapToRegistry   name: 'grunt-google-cdn',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/grunt-google-cdn
+115 silly fetchNamedPackageData grunt-jscs
+116 silly mapToRegistry name grunt-jscs
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'grunt-jscs',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'grunt-jscs',
+119 silly mapToRegistry   name: 'grunt-jscs',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/grunt-jscs
+121 silly fetchNamedPackageData grunt-newer
+122 silly mapToRegistry name grunt-newer
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'grunt-newer',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'grunt-newer',
+125 silly mapToRegistry   name: 'grunt-newer',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/grunt-newer
+127 silly fetchNamedPackageData grunt-ng-annotate
+128 silly mapToRegistry name grunt-ng-annotate
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'grunt-ng-annotate',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'grunt-ng-annotate',
+131 silly mapToRegistry   name: 'grunt-ng-annotate',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/grunt-ng-annotate
+133 silly fetchNamedPackageData grunt-postcss
+134 silly mapToRegistry name grunt-postcss
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'grunt-postcss',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   escapedName: 'grunt-postcss',
+137 silly mapToRegistry   name: 'grunt-postcss',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/grunt-postcss
+139 silly fetchNamedPackageData grunt-svgmin
+140 silly mapToRegistry name grunt-svgmin
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'grunt-svgmin',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'grunt-svgmin',
+143 silly mapToRegistry   name: 'grunt-svgmin',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/grunt-svgmin
+145 silly fetchNamedPackageData grunt-usemin
+146 silly mapToRegistry name grunt-usemin
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'grunt-usemin',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'grunt-usemin',
+149 silly mapToRegistry   name: 'grunt-usemin',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/grunt-usemin
+151 silly fetchNamedPackageData grunt-wiredep
+152 silly mapToRegistry name grunt-wiredep
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'grunt-wiredep',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   escapedName: 'grunt-wiredep',
+155 silly mapToRegistry   name: 'grunt-wiredep',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/grunt-wiredep
+157 silly fetchNamedPackageData jit-grunt
+158 silly mapToRegistry name jit-grunt
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'jit-grunt',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   escapedName: 'jit-grunt',
+161 silly mapToRegistry   name: 'jit-grunt',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/jit-grunt
+163 silly fetchNamedPackageData time-grunt
+164 silly mapToRegistry name time-grunt
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'time-grunt',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'time-grunt',
+167 silly mapToRegistry   name: 'time-grunt',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/time-grunt
+169 silly fetchNamedPackageData jshint-stylish
+170 silly mapToRegistry name jshint-stylish
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'jshint-stylish',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'jshint-stylish',
+173 silly mapToRegistry   name: 'jshint-stylish',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+175 verbose request uri https://registry.npmjs.org/autoprefixer-core
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 8:24:21 AM
+178 verbose request id 0c116576c5bcb854
+179 http request GET https://registry.npmjs.org/autoprefixer-core
+180 verbose request uri https://registry.npmjs.org/grunt-concurrent
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 8:24:22 AM
+183 http request GET https://registry.npmjs.org/grunt-concurrent
+184 verbose request uri https://registry.npmjs.org/grunt-angular-templates
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 8:24:22 AM
+187 http request GET https://registry.npmjs.org/grunt-angular-templates
+188 verbose request uri https://registry.npmjs.org/grunt-contrib-clean
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 8:24:22 AM
+191 http request GET https://registry.npmjs.org/grunt-contrib-clean
+192 verbose request uri https://registry.npmjs.org/grunt-contrib-concat
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 8:24:22 AM
+195 http request GET https://registry.npmjs.org/grunt-contrib-concat
+196 verbose request uri https://registry.npmjs.org/grunt-contrib-connect
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 8:24:22 AM
+199 http request GET https://registry.npmjs.org/grunt-contrib-connect
+200 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+201 verbose request no auth needed
+202 info attempt registry request try #1 at 8:24:22 AM
+203 http request GET https://registry.npmjs.org/grunt-contrib-copy
+204 verbose request uri https://registry.npmjs.org/grunt-contrib-htmlmin
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 8:24:22 AM
+207 http request GET https://registry.npmjs.org/grunt-contrib-htmlmin
+208 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 8:24:22 AM
+211 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+212 verbose request uri https://registry.npmjs.org/grunt-filerev
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 8:24:22 AM
+215 http request GET https://registry.npmjs.org/grunt-filerev
+216 verbose request uri https://registry.npmjs.org/grunt-google-cdn
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 8:24:22 AM
+219 http request GET https://registry.npmjs.org/grunt-google-cdn
+220 verbose request uri https://registry.npmjs.org/grunt-jscs
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 8:24:22 AM
+223 http request GET https://registry.npmjs.org/grunt-jscs
+224 verbose request uri https://registry.npmjs.org/grunt-newer
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 8:24:22 AM
+227 http request GET https://registry.npmjs.org/grunt-newer
+228 verbose request uri https://registry.npmjs.org/grunt-ng-annotate
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 8:24:22 AM
+231 http request GET https://registry.npmjs.org/grunt-ng-annotate
+232 verbose request uri https://registry.npmjs.org/grunt-postcss
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 8:24:22 AM
+235 http request GET https://registry.npmjs.org/grunt-postcss
+236 verbose request uri https://registry.npmjs.org/grunt-svgmin
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 8:24:22 AM
+239 http request GET https://registry.npmjs.org/grunt-svgmin
+240 verbose request uri https://registry.npmjs.org/grunt-usemin
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 8:24:22 AM
+243 http request GET https://registry.npmjs.org/grunt-usemin
+244 verbose request uri https://registry.npmjs.org/grunt-wiredep
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 8:24:22 AM
+247 http request GET https://registry.npmjs.org/grunt-wiredep
+248 verbose request uri https://registry.npmjs.org/time-grunt
+249 verbose request no auth needed
+250 info attempt registry request try #1 at 8:24:22 AM
+251 http request GET https://registry.npmjs.org/time-grunt
+252 verbose request uri https://registry.npmjs.org/jit-grunt
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 8:24:22 AM
+255 http request GET https://registry.npmjs.org/jit-grunt
+256 verbose request uri https://registry.npmjs.org/jshint-stylish
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 8:24:22 AM
+259 http request GET https://registry.npmjs.org/jshint-stylish
+260 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+261 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+262 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+263 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+264 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+265 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+266 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+267 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+268 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+269 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+270 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+271 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+272 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+273 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+274 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+275 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+276 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+277 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+278 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+279 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+280 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+281 verbose request uri https://registry.npmjs.org/grunt-contrib-cssmin
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 8:24:22 AM
+284 verbose etag "5MHUQ1PCUJEJBCXR8ZRMKKGKN"
+285 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+286 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 8:24:22 AM
+289 verbose etag "89VBUCQYD9VYB4TG0CQNAJDEJ"
+290 http request GET https://registry.npmjs.org/grunt-contrib-watch
+291 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+292 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+293 verbose request uri https://registry.npmjs.org/grunt-contrib-uglify
+294 verbose request no auth needed
+295 info attempt registry request try #1 at 8:24:22 AM
+296 verbose etag "ETGEAFNHWAIZJPO8Y3QAYZOR"
+297 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+298 verbose request uri https://registry.npmjs.org/grunt-contrib-imagemin
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 8:24:22 AM
+301 verbose etag "C7A37ETH0ECUCXY5HE5RV2PCM"
+302 http request GET https://registry.npmjs.org/grunt-contrib-imagemin
+303 verbose request uri https://registry.npmjs.org/grunt
+304 verbose request no auth needed
+305 info attempt registry request try #1 at 8:24:22 AM
+306 verbose etag "1FCTK58I8IG82UCXNQ0JPVJKV"
+307 http request GET https://registry.npmjs.org/grunt
+308 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+309 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+310 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+311 info attempt registry request try #2 at 8:24:32 AM
+312 http request GET https://registry.npmjs.org/autoprefixer-core
+313 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+314 info attempt registry request try #2 at 8:24:32 AM
+315 http request GET https://registry.npmjs.org/grunt-concurrent
+316 info attempt registry request try #2 at 8:24:32 AM
+317 http request GET https://registry.npmjs.org/grunt-angular-templates
+318 info attempt registry request try #2 at 8:24:32 AM
+319 http request GET https://registry.npmjs.org/grunt-contrib-clean
+320 info attempt registry request try #2 at 8:24:32 AM
+321 http request GET https://registry.npmjs.org/grunt-contrib-concat
+322 info attempt registry request try #2 at 8:24:32 AM
+323 http request GET https://registry.npmjs.org/grunt-contrib-connect
+324 info attempt registry request try #2 at 8:24:32 AM
+325 http request GET https://registry.npmjs.org/grunt-contrib-copy
+326 info attempt registry request try #2 at 8:24:32 AM
+327 http request GET https://registry.npmjs.org/grunt-contrib-htmlmin
+328 info attempt registry request try #2 at 8:24:32 AM
+329 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+330 info attempt registry request try #2 at 8:24:32 AM
+331 http request GET https://registry.npmjs.org/grunt-filerev
+332 info attempt registry request try #2 at 8:24:32 AM
+333 http request GET https://registry.npmjs.org/grunt-google-cdn
+334 info attempt registry request try #2 at 8:24:32 AM
+335 http request GET https://registry.npmjs.org/grunt-jscs
+336 info attempt registry request try #2 at 8:24:32 AM
+337 http request GET https://registry.npmjs.org/grunt-newer
+338 info attempt registry request try #2 at 8:24:32 AM
+339 http request GET https://registry.npmjs.org/grunt-ng-annotate
+340 info attempt registry request try #2 at 8:24:32 AM
+341 http request GET https://registry.npmjs.org/grunt-postcss
+342 info attempt registry request try #2 at 8:24:32 AM
+343 http request GET https://registry.npmjs.org/grunt-svgmin
+344 info attempt registry request try #2 at 8:24:32 AM
+345 http request GET https://registry.npmjs.org/grunt-usemin
+346 info attempt registry request try #2 at 8:24:32 AM
+347 http request GET https://registry.npmjs.org/grunt-wiredep
+348 info attempt registry request try #2 at 8:24:32 AM
+349 http request GET https://registry.npmjs.org/time-grunt
+350 info attempt registry request try #2 at 8:24:32 AM
+351 http request GET https://registry.npmjs.org/jit-grunt
+352 info attempt registry request try #2 at 8:24:32 AM
+353 http request GET https://registry.npmjs.org/jshint-stylish
+354 info attempt registry request try #2 at 8:24:32 AM
+355 verbose etag "5MHUQ1PCUJEJBCXR8ZRMKKGKN"
+356 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+357 info attempt registry request try #2 at 8:24:32 AM
+358 verbose etag "89VBUCQYD9VYB4TG0CQNAJDEJ"
+359 http request GET https://registry.npmjs.org/grunt-contrib-watch
+360 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+361 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+362 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+363 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+364 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+365 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+366 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+367 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+368 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+369 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+370 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+371 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+372 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+373 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+374 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+375 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+376 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+377 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+378 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+379 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+380 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+381 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+382 info attempt registry request try #2 at 8:24:32 AM
+383 verbose etag "ETGEAFNHWAIZJPO8Y3QAYZOR"
+384 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+385 info attempt registry request try #2 at 8:24:32 AM
+386 verbose etag "C7A37ETH0ECUCXY5HE5RV2PCM"
+387 http request GET https://registry.npmjs.org/grunt-contrib-imagemin
+388 info attempt registry request try #2 at 8:24:32 AM
+389 verbose etag "1FCTK58I8IG82UCXNQ0JPVJKV"
+390 http request GET https://registry.npmjs.org/grunt
+391 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+392 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+393 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+394 info attempt registry request try #3 at 8:25:32 AM
+395 http request GET https://registry.npmjs.org/autoprefixer-core
+396 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+396 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+396 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+396 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+396 silly fetchPackageMetaData  error for autoprefixer-core@^5.2.1 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+396 silly fetchPackageMetaData   code: 'ENOENT',
+396 silly fetchPackageMetaData   errno: 'ENOENT',
+396 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+396 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+396 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+396 silly fetchPackageMetaData   port: 443 }
+397 info attempt registry request try #3 at 8:25:32 AM
+398 http request GET https://registry.npmjs.org/grunt-concurrent
+399 info attempt registry request try #3 at 8:25:32 AM
+400 http request GET https://registry.npmjs.org/grunt-angular-templates
+401 info attempt registry request try #3 at 8:25:32 AM
+402 http request GET https://registry.npmjs.org/grunt-contrib-clean
+403 info attempt registry request try #3 at 8:25:32 AM
+404 http request GET https://registry.npmjs.org/grunt-contrib-concat
+405 info attempt registry request try #3 at 8:25:32 AM
+406 http request GET https://registry.npmjs.org/grunt-contrib-connect
+407 info attempt registry request try #3 at 8:25:32 AM
+408 http request GET https://registry.npmjs.org/grunt-contrib-copy
+409 info attempt registry request try #3 at 8:25:32 AM
+410 http request GET https://registry.npmjs.org/grunt-contrib-htmlmin
+411 info attempt registry request try #3 at 8:25:32 AM
+412 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+413 info attempt registry request try #3 at 8:25:32 AM
+414 http request GET https://registry.npmjs.org/grunt-filerev
+415 info attempt registry request try #3 at 8:25:32 AM
+416 http request GET https://registry.npmjs.org/grunt-google-cdn
+417 info attempt registry request try #3 at 8:25:32 AM
+418 http request GET https://registry.npmjs.org/grunt-jscs
+419 info attempt registry request try #3 at 8:25:32 AM
+420 http request GET https://registry.npmjs.org/grunt-newer
+421 info attempt registry request try #3 at 8:25:32 AM
+422 http request GET https://registry.npmjs.org/grunt-ng-annotate
+423 info attempt registry request try #3 at 8:25:32 AM
+424 http request GET https://registry.npmjs.org/grunt-postcss
+425 info attempt registry request try #3 at 8:25:32 AM
+426 http request GET https://registry.npmjs.org/grunt-svgmin
+427 info attempt registry request try #3 at 8:25:32 AM
+428 http request GET https://registry.npmjs.org/grunt-usemin
+429 info attempt registry request try #3 at 8:25:32 AM
+430 http request GET https://registry.npmjs.org/grunt-wiredep
+431 info attempt registry request try #3 at 8:25:32 AM
+432 http request GET https://registry.npmjs.org/time-grunt
+433 info attempt registry request try #3 at 8:25:32 AM
+434 http request GET https://registry.npmjs.org/jit-grunt
+435 info attempt registry request try #3 at 8:25:32 AM
+436 http request GET https://registry.npmjs.org/jshint-stylish
+437 info attempt registry request try #3 at 8:25:32 AM
+438 verbose etag "5MHUQ1PCUJEJBCXR8ZRMKKGKN"
+439 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+440 info attempt registry request try #3 at 8:25:32 AM
+441 verbose etag "89VBUCQYD9VYB4TG0CQNAJDEJ"
+442 http request GET https://registry.npmjs.org/grunt-contrib-watch
+443 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+443 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+443 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+443 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+443 silly fetchPackageMetaData  error for grunt-concurrent@^1.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+443 silly fetchPackageMetaData   code: 'ENOENT',
+443 silly fetchPackageMetaData   errno: 'ENOENT',
+443 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+443 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+443 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+443 silly fetchPackageMetaData   port: 443 }
+444 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+444 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+444 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+444 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+444 silly fetchPackageMetaData  error for grunt-angular-templates@^0.5.7 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+444 silly fetchPackageMetaData   code: 'ENOENT',
+444 silly fetchPackageMetaData   errno: 'ENOENT',
+444 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+444 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+444 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+444 silly fetchPackageMetaData   port: 443 }
+445 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+445 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+445 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+445 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+445 silly fetchPackageMetaData  error for grunt-contrib-clean@^0.6.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+445 silly fetchPackageMetaData   code: 'ENOENT',
+445 silly fetchPackageMetaData   errno: 'ENOENT',
+445 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+445 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+445 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+445 silly fetchPackageMetaData   port: 443 }
+446 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+446 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+446 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+446 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+446 silly fetchPackageMetaData  error for grunt-contrib-concat@^0.5.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+446 silly fetchPackageMetaData   code: 'ENOENT',
+446 silly fetchPackageMetaData   errno: 'ENOENT',
+446 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+446 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+446 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+446 silly fetchPackageMetaData   port: 443 }
+447 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+447 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+447 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+447 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+447 silly fetchPackageMetaData  error for grunt-contrib-connect@^0.9.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+447 silly fetchPackageMetaData   code: 'ENOENT',
+447 silly fetchPackageMetaData   errno: 'ENOENT',
+447 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+447 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+447 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+447 silly fetchPackageMetaData   port: 443 }
+448 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+448 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+448 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+448 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+448 silly fetchPackageMetaData  error for grunt-contrib-copy@^0.7.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+448 silly fetchPackageMetaData   code: 'ENOENT',
+448 silly fetchPackageMetaData   errno: 'ENOENT',
+448 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+448 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+448 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+448 silly fetchPackageMetaData   port: 443 }
+449 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+449 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+449 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+449 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+449 silly fetchPackageMetaData  error for grunt-contrib-htmlmin@^0.4.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+449 silly fetchPackageMetaData   code: 'ENOENT',
+449 silly fetchPackageMetaData   errno: 'ENOENT',
+449 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+449 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+449 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+449 silly fetchPackageMetaData   port: 443 }
+450 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+450 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+450 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+450 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+450 silly fetchPackageMetaData  error for grunt-contrib-jshint@^0.11.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+450 silly fetchPackageMetaData   code: 'ENOENT',
+450 silly fetchPackageMetaData   errno: 'ENOENT',
+450 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+450 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+450 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+450 silly fetchPackageMetaData   port: 443 }
+451 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+451 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+451 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+451 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+451 silly fetchPackageMetaData  error for grunt-filerev@^2.1.2 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+451 silly fetchPackageMetaData   code: 'ENOENT',
+451 silly fetchPackageMetaData   errno: 'ENOENT',
+451 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+451 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+451 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+451 silly fetchPackageMetaData   port: 443 }
+452 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+452 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+452 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+452 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+452 silly fetchPackageMetaData  error for grunt-google-cdn@^0.4.3 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+452 silly fetchPackageMetaData   code: 'ENOENT',
+452 silly fetchPackageMetaData   errno: 'ENOENT',
+452 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+452 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+452 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+452 silly fetchPackageMetaData   port: 443 }
+453 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+453 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+453 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+453 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+453 silly fetchPackageMetaData  error for grunt-jscs@^1.8.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+453 silly fetchPackageMetaData   code: 'ENOENT',
+453 silly fetchPackageMetaData   errno: 'ENOENT',
+453 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+453 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+453 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+453 silly fetchPackageMetaData   port: 443 }
+454 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+454 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+454 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+454 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+454 silly fetchPackageMetaData  error for grunt-newer@^1.1.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+454 silly fetchPackageMetaData   code: 'ENOENT',
+454 silly fetchPackageMetaData   errno: 'ENOENT',
+454 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+454 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+454 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+454 silly fetchPackageMetaData   port: 443 }
+455 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+455 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+455 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+455 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+455 silly fetchPackageMetaData  error for grunt-ng-annotate@^0.9.2 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+455 silly fetchPackageMetaData   code: 'ENOENT',
+455 silly fetchPackageMetaData   errno: 'ENOENT',
+455 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+455 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+455 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+455 silly fetchPackageMetaData   port: 443 }
+456 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+456 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+456 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+456 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+456 silly fetchPackageMetaData  error for grunt-postcss@^0.5.5 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+456 silly fetchPackageMetaData   code: 'ENOENT',
+456 silly fetchPackageMetaData   errno: 'ENOENT',
+456 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+456 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+456 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+456 silly fetchPackageMetaData   port: 443 }
+457 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+457 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+457 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+457 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+457 silly fetchPackageMetaData  error for grunt-svgmin@^2.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+457 silly fetchPackageMetaData   code: 'ENOENT',
+457 silly fetchPackageMetaData   errno: 'ENOENT',
+457 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+457 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+457 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+457 silly fetchPackageMetaData   port: 443 }
+458 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+458 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+458 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+458 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+458 silly fetchPackageMetaData  error for grunt-usemin@^3.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+458 silly fetchPackageMetaData   code: 'ENOENT',
+458 silly fetchPackageMetaData   errno: 'ENOENT',
+458 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+458 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+458 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+458 silly fetchPackageMetaData   port: 443 }
+459 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+459 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+459 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+459 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+459 silly fetchPackageMetaData  error for grunt-wiredep@^2.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+459 silly fetchPackageMetaData   code: 'ENOENT',
+459 silly fetchPackageMetaData   errno: 'ENOENT',
+459 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+459 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+459 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+459 silly fetchPackageMetaData   port: 443 }
+460 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+460 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+460 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+460 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+460 silly fetchPackageMetaData  error for time-grunt@^1.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+460 silly fetchPackageMetaData   code: 'ENOENT',
+460 silly fetchPackageMetaData   errno: 'ENOENT',
+460 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+460 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+460 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+460 silly fetchPackageMetaData   port: 443 }
+461 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+461 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+461 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+461 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+461 silly fetchPackageMetaData  error for jit-grunt@^0.9.1 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+461 silly fetchPackageMetaData   code: 'ENOENT',
+461 silly fetchPackageMetaData   errno: 'ENOENT',
+461 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+461 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+461 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+461 silly fetchPackageMetaData   port: 443 }
+462 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+462 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+462 silly fetchPackageMetaData     at errnoException (dns.js:32:15)
+462 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+462 silly fetchPackageMetaData  error for jshint-stylish@^1.0.0 { [Error: getaddrinfo ENOENT registry.npmjs.org:443]
+462 silly fetchPackageMetaData   code: 'ENOENT',
+462 silly fetchPackageMetaData   errno: 'ENOENT',
+462 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+462 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+462 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+462 silly fetchPackageMetaData   port: 443 }
+463 silly get cb [ 304, undefined ]
+464 verbose etag https://registry.npmjs.org/grunt-contrib-cssmin from cache
+465 verbose get saving grunt-contrib-cssmin to C:\Users\mrjap1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-cssmin\.cache.json
+466 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+467 silly get cb [ 304, undefined ]
+468 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+469 verbose get saving grunt-contrib-watch to C:\Users\mrjap1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-watch\.cache.json
+470 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+471 info attempt registry request try #3 at 8:25:32 AM
+472 verbose etag "ETGEAFNHWAIZJPO8Y3QAYZOR"
+473 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+474 info attempt registry request try #3 at 8:25:32 AM
+475 verbose etag "C7A37ETH0ECUCXY5HE5RV2PCM"
+476 http request GET https://registry.npmjs.org/grunt-contrib-imagemin
+477 info attempt registry request try #3 at 8:25:32 AM
+478 verbose etag "1FCTK58I8IG82UCXNQ0JPVJKV"
+479 http request GET https://registry.npmjs.org/grunt
+480 silly get cb [ 304, undefined ]
+481 verbose etag https://registry.npmjs.org/grunt-contrib-uglify from cache
+482 verbose get saving grunt-contrib-uglify to C:\Users\mrjap1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-uglify\.cache.json
+483 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+484 silly get cb [ 304, undefined ]
+485 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+486 verbose get saving grunt-contrib-imagemin to C:\Users\mrjap1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-imagemin\.cache.json
+487 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+488 silly get cb [ 304, undefined ]
+489 verbose etag https://registry.npmjs.org/grunt from cache
+490 verbose get saving grunt to C:\Users\mrjap1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt\.cache.json
+491 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+492 silly resolveWithNewModule grunt-contrib-watch@0.6.1 checking installable status
+493 silly cache add args [ 'grunt-contrib-watch@^0.6.1', null ]
+494 verbose cache add spec grunt-contrib-watch@^0.6.1
+495 silly cache add parsed spec Result {
+495 silly cache add   raw: 'grunt-contrib-watch@^0.6.1',
+495 silly cache add   scope: null,
+495 silly cache add   escapedName: 'grunt-contrib-watch',
+495 silly cache add   name: 'grunt-contrib-watch',
+495 silly cache add   rawSpec: '^0.6.1',
+495 silly cache add   spec: '>=0.6.1 <0.7.0',
+495 silly cache add   type: 'range' }
+496 silly addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+497 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for grunt-contrib-watch
+498 silly addNameRange { name: 'grunt-contrib-watch',
+498 silly addNameRange   range: '>=0.6.1 <0.7.0',
+498 silly addNameRange   hasData: false }
+499 silly mapToRegistry name grunt-contrib-watch
+500 silly mapToRegistry using default registry
+501 silly mapToRegistry registry https://registry.npmjs.org/
+502 silly mapToRegistry data Result {
+502 silly mapToRegistry   raw: 'grunt-contrib-watch',
+502 silly mapToRegistry   scope: null,
+502 silly mapToRegistry   escapedName: 'grunt-contrib-watch',
+502 silly mapToRegistry   name: 'grunt-contrib-watch',
+502 silly mapToRegistry   rawSpec: '',
+502 silly mapToRegistry   spec: 'latest',
+502 silly mapToRegistry   type: 'tag' }
+503 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+504 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+505 silly resolveWithNewModule grunt-contrib-cssmin@0.12.3 checking installable status
+506 silly cache add args [ 'grunt-contrib-cssmin@^0.12.0', null ]
+507 verbose cache add spec grunt-contrib-cssmin@^0.12.0
+508 silly cache add parsed spec Result {
+508 silly cache add   raw: 'grunt-contrib-cssmin@^0.12.0',
+508 silly cache add   scope: null,
+508 silly cache add   escapedName: 'grunt-contrib-cssmin',
+508 silly cache add   name: 'grunt-contrib-cssmin',
+508 silly cache add   rawSpec: '^0.12.0',
+508 silly cache add   spec: '>=0.12.0 <0.13.0',
+508 silly cache add   type: 'range' }
+509 silly addNamed grunt-contrib-cssmin@>=0.12.0 <0.13.0
+510 verbose addNamed ">=0.12.0 <0.13.0" is a valid semver range for grunt-contrib-cssmin
+511 silly addNameRange { name: 'grunt-contrib-cssmin',
+511 silly addNameRange   range: '>=0.12.0 <0.13.0',
+511 silly addNameRange   hasData: false }
+512 silly mapToRegistry name grunt-contrib-cssmin
+513 silly mapToRegistry using default registry
+514 silly mapToRegistry registry https://registry.npmjs.org/
+515 silly mapToRegistry data Result {
+515 silly mapToRegistry   raw: 'grunt-contrib-cssmin',
+515 silly mapToRegistry   scope: null,
+515 silly mapToRegistry   escapedName: 'grunt-contrib-cssmin',
+515 silly mapToRegistry   name: 'grunt-contrib-cssmin',
+515 silly mapToRegistry   rawSpec: '',
+515 silly mapToRegistry   spec: 'latest',
+515 silly mapToRegistry   type: 'tag' }
+516 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+517 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-cssmin not in flight; fetching
+518 silly resolveWithNewModule grunt-contrib-imagemin@1.0.1 checking installable status
+519 silly cache add args [ 'grunt-contrib-imagemin@^1.0.0', null ]
+520 verbose cache add spec grunt-contrib-imagemin@^1.0.0
+521 silly cache add parsed spec Result {
+521 silly cache add   raw: 'grunt-contrib-imagemin@^1.0.0',
+521 silly cache add   scope: null,
+521 silly cache add   escapedName: 'grunt-contrib-imagemin',
+521 silly cache add   name: 'grunt-contrib-imagemin',
+521 silly cache add   rawSpec: '^1.0.0',
+521 silly cache add   spec: '>=1.0.0 <2.0.0',
+521 silly cache add   type: 'range' }
+522 silly addNamed grunt-contrib-imagemin@>=1.0.0 <2.0.0
+523 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for grunt-contrib-imagemin
+524 silly addNameRange { name: 'grunt-contrib-imagemin',
+524 silly addNameRange   range: '>=1.0.0 <2.0.0',
+524 silly addNameRange   hasData: false }
+525 silly mapToRegistry name grunt-contrib-imagemin
+526 silly mapToRegistry using default registry
+527 silly mapToRegistry registry https://registry.npmjs.org/
+528 silly mapToRegistry data Result {
+528 silly mapToRegistry   raw: 'grunt-contrib-imagemin',
+528 silly mapToRegistry   scope: null,
+528 silly mapToRegistry   escapedName: 'grunt-contrib-imagemin',
+528 silly mapToRegistry   name: 'grunt-contrib-imagemin',
+528 silly mapToRegistry   rawSpec: '',
+528 silly mapToRegistry   spec: 'latest',
+528 silly mapToRegistry   type: 'tag' }
+529 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-imagemin
+530 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-imagemin not in flight; fetching
+531 silly resolveWithNewModule grunt-contrib-uglify@0.7.0 checking installable status
+532 silly cache add args [ 'grunt-contrib-uglify@^0.7.0', null ]
+533 verbose cache add spec grunt-contrib-uglify@^0.7.0
+534 silly cache add parsed spec Result {
+534 silly cache add   raw: 'grunt-contrib-uglify@^0.7.0',
+534 silly cache add   scope: null,
+534 silly cache add   escapedName: 'grunt-contrib-uglify',
+534 silly cache add   name: 'grunt-contrib-uglify',
+534 silly cache add   rawSpec: '^0.7.0',
+534 silly cache add   spec: '>=0.7.0 <0.8.0',
+534 silly cache add   type: 'range' }
+535 silly addNamed grunt-contrib-uglify@>=0.7.0 <0.8.0
+536 verbose addNamed ">=0.7.0 <0.8.0" is a valid semver range for grunt-contrib-uglify
+537 silly addNameRange { name: 'grunt-contrib-uglify',
+537 silly addNameRange   range: '>=0.7.0 <0.8.0',
+537 silly addNameRange   hasData: false }
+538 silly mapToRegistry name grunt-contrib-uglify
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry data Result {
+541 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+541 silly mapToRegistry   scope: null,
+541 silly mapToRegistry   escapedName: 'grunt-contrib-uglify',
+541 silly mapToRegistry   name: 'grunt-contrib-uglify',
+541 silly mapToRegistry   rawSpec: '',
+541 silly mapToRegistry   spec: 'latest',
+541 silly mapToRegistry   type: 'tag' }
+542 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+543 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+544 verbose get https://registry.npmjs.org/grunt-contrib-watch not expired, no request
+545 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+545 silly addNameRange   range: '>=0.6.1 <0.7.0',
+545 silly addNameRange   hasData: true }
+546 silly addNameRange versions [ 'grunt-contrib-watch',
+546 silly addNameRange   [ '0.1.0',
+546 silly addNameRange     '0.1.1',
+546 silly addNameRange     '0.1.2',
+546 silly addNameRange     '0.1.3',
+546 silly addNameRange     '0.1.4',
+546 silly addNameRange     '0.2.0',
+546 silly addNameRange     '0.3.0',
+546 silly addNameRange     '0.3.1',
+546 silly addNameRange     '0.4.0',
+546 silly addNameRange     '0.4.1',
+546 silly addNameRange     '0.4.2',
+546 silly addNameRange     '0.4.3',
+546 silly addNameRange     '0.4.4',
+546 silly addNameRange     '0.5.0',
+546 silly addNameRange     '0.5.1',
+546 silly addNameRange     '0.5.2',
+546 silly addNameRange     '0.5.3',
+546 silly addNameRange     '0.6.0',
+546 silly addNameRange     '0.6.1',
+546 silly addNameRange     '1.0.0',
+546 silly addNameRange     '0.2.0-a',
+546 silly addNameRange     '0.2.0-rc5',
+546 silly addNameRange     '0.2.0-rc7' ] ]
+547 silly addNamed grunt-contrib-watch@0.6.1
+548 verbose addNamed "0.6.1" is a plain semver version for grunt-contrib-watch
+549 verbose get https://registry.npmjs.org/grunt-contrib-cssmin not expired, no request
+550 silly addNameRange number 2 { name: 'grunt-contrib-cssmin',
+550 silly addNameRange   range: '>=0.12.0 <0.13.0',
+550 silly addNameRange   hasData: true }
+551 silly addNameRange versions [ 'grunt-contrib-cssmin',
+551 silly addNameRange   [ '0.4.0',
+551 silly addNameRange     '0.4.1',
+551 silly addNameRange     '0.4.2',
+551 silly addNameRange     '0.5.0',
+551 silly addNameRange     '0.6.0',
+551 silly addNameRange     '0.6.1',
+551 silly addNameRange     '0.6.2',
+551 silly addNameRange     '0.7.0',
+551 silly addNameRange     '0.8.0',
+551 silly addNameRange     '0.9.0',
+551 silly addNameRange     '0.10.0',
+551 silly addNameRange     '0.11.0',
+551 silly addNameRange     '0.12.0',
+551 silly addNameRange     '0.12.1',
+551 silly addNameRange     '0.12.2',
+551 silly addNameRange     '0.12.3',
+551 silly addNameRange     '0.13.0',
+551 silly addNameRange     '0.14.0',
+551 silly addNameRange     '1.0.0',
+551 silly addNameRange     '1.0.1' ] ]
+552 silly addNamed grunt-contrib-cssmin@0.12.3
+553 verbose addNamed "0.12.3" is a plain semver version for grunt-contrib-cssmin
+554 silly mapToRegistry name grunt-contrib-watch
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry https://registry.npmjs.org/
+557 silly mapToRegistry data Result {
+557 silly mapToRegistry   raw: 'grunt-contrib-watch',
+557 silly mapToRegistry   scope: null,
+557 silly mapToRegistry   escapedName: 'grunt-contrib-watch',
+557 silly mapToRegistry   name: 'grunt-contrib-watch',
+557 silly mapToRegistry   rawSpec: '',
+557 silly mapToRegistry   spec: 'latest',
+557 silly mapToRegistry   type: 'tag' }
+558 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+559 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz not in flight; adding
+560 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz',
+560 verbose addRemoteTarball   '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15' ]
+561 silly resolveWithNewModule grunt@0.4.5 checking installable status
+562 silly cache add args [ 'grunt@^0.4.5', null ]
+563 verbose cache add spec grunt@^0.4.5
+564 silly cache add parsed spec Result {
+564 silly cache add   raw: 'grunt@^0.4.5',
+564 silly cache add   scope: null,
+564 silly cache add   escapedName: 'grunt',
+564 silly cache add   name: 'grunt',
+564 silly cache add   rawSpec: '^0.4.5',
+564 silly cache add   spec: '>=0.4.5 <0.5.0',
+564 silly cache add   type: 'range' }
+565 silly addNamed grunt@>=0.4.5 <0.5.0
+566 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt
+567 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+568 silly mapToRegistry name grunt
+569 silly mapToRegistry using default registry
+570 silly mapToRegistry registry https://registry.npmjs.org/
+571 silly mapToRegistry data Result {
+571 silly mapToRegistry   raw: 'grunt',
+571 silly mapToRegistry   scope: null,
+571 silly mapToRegistry   escapedName: 'grunt',
+571 silly mapToRegistry   name: 'grunt',
+571 silly mapToRegistry   rawSpec: '',
+571 silly mapToRegistry   spec: 'latest',
+571 silly mapToRegistry   type: 'tag' }
+572 silly mapToRegistry uri https://registry.npmjs.org/grunt
+573 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+574 silly mapToRegistry name grunt-contrib-cssmin
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry data Result {
+577 silly mapToRegistry   raw: 'grunt-contrib-cssmin',
+577 silly mapToRegistry   scope: null,
+577 silly mapToRegistry   escapedName: 'grunt-contrib-cssmin',
+577 silly mapToRegistry   name: 'grunt-contrib-cssmin',
+577 silly mapToRegistry   rawSpec: '',
+577 silly mapToRegistry   spec: 'latest',
+577 silly mapToRegistry   type: 'tag' }
+578 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+579 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz not in flight; adding
+580 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz',
+580 verbose addRemoteTarball   '4157596096fb7656fc464b4cc7b0746de1f39014' ]
+581 verbose get https://registry.npmjs.org/grunt-contrib-imagemin not expired, no request
+582 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+582 silly addNameRange   range: '>=1.0.0 <2.0.0',
+582 silly addNameRange   hasData: true }
+583 silly addNameRange versions [ 'grunt-contrib-imagemin',
+583 silly addNameRange   [ '0.1.0',
+583 silly addNameRange     '0.1.1',
+583 silly addNameRange     '0.1.2',
+583 silly addNameRange     '0.1.3',
+583 silly addNameRange     '0.1.4',
+583 silly addNameRange     '0.1.1-rc7',
+583 silly addNameRange     '0.1.1-rc8',
+583 silly addNameRange     '0.2.0',
+583 silly addNameRange     '0.2.1',
+583 silly addNameRange     '0.3.0',
+583 silly addNameRange     '0.4.0',
+583 silly addNameRange     '0.4.1',
+583 silly addNameRange     '0.5.0',
+583 silly addNameRange     '0.6.0',
+583 silly addNameRange     '0.6.1',
+583 silly addNameRange     '0.7.0',
+583 silly addNameRange     '0.7.1',
+583 silly addNameRange     '0.7.2',
+583 silly addNameRange     '0.8.0',
+583 silly addNameRange     '0.8.1',
+583 silly addNameRange     '0.9.0',
+583 silly addNameRange     '0.9.1',
+583 silly addNameRange     '0.9.2',
+583 silly addNameRange     '0.9.3',
+583 silly addNameRange     '0.9.4',
+583 silly addNameRange     '1.0.0',
+583 silly addNameRange     '1.0.1' ] ]
+584 silly addNamed grunt-contrib-imagemin@1.0.1
+585 verbose addNamed "1.0.1" is a plain semver version for grunt-contrib-imagemin
+586 verbose get https://registry.npmjs.org/grunt-contrib-uglify not expired, no request
+587 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+587 silly addNameRange   range: '>=0.7.0 <0.8.0',
+587 silly addNameRange   hasData: true }
+588 silly addNameRange versions [ 'grunt-contrib-uglify',
+588 silly addNameRange   [ '0.1.0',
+588 silly addNameRange     '0.1.1',
+588 silly addNameRange     '0.1.2',
+588 silly addNameRange     '0.2.0',
+588 silly addNameRange     '0.2.1',
+588 silly addNameRange     '0.2.2',
+588 silly addNameRange     '0.2.3',
+588 silly addNameRange     '0.2.4',
+588 silly addNameRange     '0.2.5',
+588 silly addNameRange     '0.2.6',
+588 silly addNameRange     '0.2.7',
+588 silly addNameRange     '0.3.0',
+588 silly addNameRange     '0.3.1',
+588 silly addNameRange     '0.1.1-rc5',
+588 silly addNameRange     '0.1.1-rc6',
+588 silly addNameRange     '0.3.2',
+588 silly addNameRange     '0.3.3',
+588 silly addNameRange     '0.4.0',
+588 silly addNameRange     '0.5.0',
+588 silly addNameRange     '0.4.1',
+588 silly addNameRange     '0.5.1',
+588 silly addNameRange     '0.6.0',
+588 silly addNameRange     '0.7.0',
+588 silly addNameRange     '0.8.0',
+588 silly addNameRange     '0.8.1',
+588 silly addNameRange     '0.9.0',
+588 silly addNameRange     '0.9.1',
+588 silly addNameRange     '0.9.2',
+588 silly addNameRange     '0.10.0',
+588 silly addNameRange     '0.10.1',
+588 silly addNameRange     '0.11.0',
+588 silly addNameRange     '0.11.1',
+588 silly addNameRange     '1.0.0',
+588 silly addNameRange     '1.0.1' ] ]
+589 silly addNamed grunt-contrib-uglify@0.7.0
+590 verbose addNamed "0.7.0" is a plain semver version for grunt-contrib-uglify
+591 verbose get https://registry.npmjs.org/grunt not expired, no request
+592 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+593 silly addNameRange versions [ 'grunt',
+593 silly addNameRange   [ '0.1.0',
+593 silly addNameRange     '0.1.1',
+593 silly addNameRange     '0.1.2',
+593 silly addNameRange     '0.2.0',
+593 silly addNameRange     '0.2.1',
+593 silly addNameRange     '0.2.2',
+593 silly addNameRange     '0.2.3',
+593 silly addNameRange     '0.2.4',
+593 silly addNameRange     '0.2.5',
+593 silly addNameRange     '0.2.6',
+593 silly addNameRange     '0.2.7',
+593 silly addNameRange     '0.2.8',
+593 silly addNameRange     '0.2.9',
+593 silly addNameRange     '0.2.10',
+593 silly addNameRange     '0.2.11',
+593 silly addNameRange     '0.2.12',
+593 silly addNameRange     '0.2.13',
+593 silly addNameRange     '0.2.14',
+593 silly addNameRange     '0.2.15',
+593 silly addNameRange     '0.3.0',
+593 silly addNameRange     '0.3.1',
+593 silly addNameRange     '0.3.2',
+593 silly addNameRange     '0.3.3',
+593 silly addNameRange     '0.3.4',
+593 silly addNameRange     '0.3.5',
+593 silly addNameRange     '0.3.6',
+593 silly addNameRange     '0.3.7',
+593 silly addNameRange     '0.3.8',
+593 silly addNameRange     '0.3.9',
+593 silly addNameRange     '0.3.10',
+593 silly addNameRange     '0.3.11',
+593 silly addNameRange     '0.3.12',
+593 silly addNameRange     '0.3.13',
+593 silly addNameRange     '0.3.14',
+593 silly addNameRange     '0.3.15',
+593 silly addNameRange     '0.3.16',
+593 silly addNameRange     '0.3.17',
+593 silly addNameRange     '0.4.0',
+593 silly addNameRange     '0.4.1',
+593 silly addNameRange     '0.4.2',
+593 silly addNameRange     '0.4.3',
+593 silly addNameRange     '0.4.4',
+593 silly addNameRange     '0.4.5',
+593 silly addNameRange     '1.0.0-rc1',
+593 silly addNameRange     '1.0.0',
+593 silly addNameRange     '1.0.1',
+593 silly addNameRange     '0.3.13-a',
+593 silly addNameRange     '0.4.0-a',
+593 silly addNameRange     '0.4.0-rc1',
+593 silly addNameRange     '0.4.0-rc2',
+593 silly addNameRange     '0.4.0-rc3',
+593 silly addNameRange     '0.4.0-rc4',
+593 silly addNameRange     '0.4.0-rc5',
+593 silly addNameRange     '0.4.0-rc6',
+593 silly addNameRange     '0.4.0-rc7',
+593 silly addNameRange     '0.4.0-rc8' ] ]
+594 silly addNamed grunt@0.4.5
+595 verbose addNamed "0.4.5" is a plain semver version for grunt
+596 info retry fetch attempt 1 at 8:25:32 AM
+597 info attempt registry request try #1 at 8:25:32 AM
+598 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+599 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+600 info retry fetch attempt 1 at 8:25:32 AM
+601 info attempt registry request try #1 at 8:25:32 AM
+602 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+603 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+604 silly mapToRegistry name grunt
+605 silly mapToRegistry using default registry
+606 silly mapToRegistry registry https://registry.npmjs.org/
+607 silly mapToRegistry data Result {
+607 silly mapToRegistry   raw: 'grunt',
+607 silly mapToRegistry   scope: null,
+607 silly mapToRegistry   escapedName: 'grunt',
+607 silly mapToRegistry   name: 'grunt',
+607 silly mapToRegistry   rawSpec: '',
+607 silly mapToRegistry   spec: 'latest',
+607 silly mapToRegistry   type: 'tag' }
+608 silly mapToRegistry uri https://registry.npmjs.org/grunt
+609 verbose addRemoteTarball https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz not in flight; adding
+610 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+610 verbose addRemoteTarball   '56937cd5194324adff6d207631832a9d6ba4e7f0' ]
+611 silly mapToRegistry name grunt-contrib-uglify
+612 silly mapToRegistry using default registry
+613 silly mapToRegistry registry https://registry.npmjs.org/
+614 silly mapToRegistry data Result {
+614 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+614 silly mapToRegistry   scope: null,
+614 silly mapToRegistry   escapedName: 'grunt-contrib-uglify',
+614 silly mapToRegistry   name: 'grunt-contrib-uglify',
+614 silly mapToRegistry   rawSpec: '',
+614 silly mapToRegistry   spec: 'latest',
+614 silly mapToRegistry   type: 'tag' }
+615 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+616 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz not in flight; adding
+617 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz',
+617 verbose addRemoteTarball   '79dde81a62cec6ffa35b47a32833706744f8e787' ]
+618 info retry fetch attempt 1 at 8:25:32 AM
+619 info attempt registry request try #1 at 8:25:32 AM
+620 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+621 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+622 info retry fetch attempt 1 at 8:25:32 AM
+623 info attempt registry request try #1 at 8:25:32 AM
+624 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+625 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+626 silly cache afterAdd grunt-contrib-imagemin@1.0.1
+627 verbose afterAdd C:\Users\mrjap1\AppData\Roaming\npm-cache\grunt-contrib-imagemin\1.0.1\package\package.json not in flight; writing
+628 verbose correctMkdir C:\Users\mrjap1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+629 verbose afterAdd C:\Users\mrjap1\AppData\Roaming\npm-cache\grunt-contrib-imagemin\1.0.1\package\package.json written
+630 info attempt registry request try #2 at 8:25:42 AM
+631 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+632 info attempt registry request try #2 at 8:25:42 AM
+633 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+634 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+635 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+636 info attempt registry request try #2 at 8:25:42 AM
+637 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+638 info attempt registry request try #2 at 8:25:42 AM
+639 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+640 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+641 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+642 info attempt registry request try #3 at 8:26:42 AM
+643 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+644 info attempt registry request try #3 at 8:26:42 AM
+645 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+646 error fetch failed https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+647 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+648 error fetch failed https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+649 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+650 info attempt registry request try #3 at 8:26:42 AM
+651 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+652 info attempt registry request try #3 at 8:26:42 AM
+653 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+654 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+655 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+656 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+657 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+658 info retry fetch attempt 2 at 8:26:52 AM
+659 info attempt registry request try #1 at 8:26:52 AM
+660 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+661 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+662 info retry fetch attempt 2 at 8:26:52 AM
+663 info attempt registry request try #1 at 8:26:52 AM
+664 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+665 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+666 info retry fetch attempt 2 at 8:26:52 AM
+667 info attempt registry request try #1 at 8:26:52 AM
+668 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+669 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+670 info retry fetch attempt 2 at 8:26:52 AM
+671 info attempt registry request try #1 at 8:26:52 AM
+672 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+673 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+674 info attempt registry request try #2 at 8:27:02 AM
+675 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+676 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+677 info attempt registry request try #2 at 8:27:02 AM
+678 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+679 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+680 info attempt registry request try #2 at 8:27:02 AM
+681 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+682 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+683 info attempt registry request try #2 at 8:27:02 AM
+684 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+685 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+686 info attempt registry request try #3 at 8:28:02 AM
+687 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+688 info attempt registry request try #3 at 8:28:02 AM
+689 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+690 info attempt registry request try #3 at 8:28:02 AM
+691 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+692 error fetch failed https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+693 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+694 error fetch failed https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+695 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+696 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+697 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+698 info attempt registry request try #3 at 8:28:02 AM
+699 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+700 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+701 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+702 info retry fetch attempt 3 at 8:29:02 AM
+703 info attempt registry request try #1 at 8:29:02 AM
+704 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+705 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+706 info retry fetch attempt 3 at 8:29:02 AM
+707 info attempt registry request try #1 at 8:29:02 AM
+708 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+709 info retry fetch attempt 3 at 8:29:02 AM
+710 info attempt registry request try #1 at 8:29:02 AM
+711 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+712 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+713 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+714 info retry fetch attempt 3 at 8:29:02 AM
+715 info attempt registry request try #1 at 8:29:02 AM
+716 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+717 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+718 info attempt registry request try #2 at 8:29:12 AM
+719 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+720 info attempt registry request try #2 at 8:29:12 AM
+721 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+722 info attempt registry request try #2 at 8:29:12 AM
+723 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+724 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+725 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+726 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+727 info attempt registry request try #2 at 8:29:12 AM
+728 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+729 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+730 info attempt registry request try #3 at 8:30:12 AM
+731 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+732 info attempt registry request try #3 at 8:30:12 AM
+733 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+734 info attempt registry request try #3 at 8:30:12 AM
+735 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+736 info attempt registry request try #3 at 8:30:12 AM
+737 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+738 error fetch failed https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.12.3.tgz
+739 error fetch failed https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+740 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+741 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.7.0.tgz
+742 silly rollbackFailedOptional Starting
+743 silly rollbackFailedOptional Finishing
+744 silly runTopLevelLifecycles Starting
+745 silly runTopLevelLifecycles Finishing
+746 silly install printInstalled
+747 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
+747 verbose stack     at Object.exports._errnoException (util.js:870:11)
+747 verbose stack     at errnoException (dns.js:32:15)
+747 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+748 verbose cwd C:\Users\mrjap1\Desktop\Angular-Table
+749 error Windows_NT 10.0.10586
+750 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\mrjap1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+751 error node v4.4.5
+752 error npm  v3.10.3
+753 error code ENOENT
+754 error errno ENOENT
+755 error syscall getaddrinfo
+756 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+757 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+757 error enoent This is most likely not a problem with npm itself
+757 error enoent and is related to npm not being able to find a file.
+758 verbose exit [ 1, true ]

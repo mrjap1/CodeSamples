@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html ng-app="myApp" lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular JS | Data Search Application</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <meta name="description" content="Simple Data Search Page">
+    <meta name="keywords" content="angular, html, canada, css3">
+    <meta name="author" content="James Arthur Phillips I">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+    <!-- /-------- //-----/ HTML CODE BELOW \------\\--------\ -->
+
+    <div ng-controller="myController" class="container-fluid table-responsive animated bounceInUp">
+        <h1 class="text-center">Subscribers Data Mailing List</h1>
+
+        <label>Search:</label><input type="text" value="" ng-model="search">
+        <table class="table table-hover table-condensed table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Eye Color</th>
+                    <th>Gender</th>
+                    <th>Company</th>
+                    <th>E-mail</th>
+                    <th>Phone</th>
+                    <th>state</th>
+                    <th>Favorite Fruit</th>
+                </tr>
+            </thead><!-- END of Table Headers -->
+            <tbody>
+                <tr ng-repeat="data in appData | filter : search">
+                    <td>{{$index + 1}}</td>
+                    <td>{{data.name}}</td>
+                    <td>{{data.age}}</td>
+                    <td>{{data.eyeColor}}</td>
+                    <td>{{data.gender}}</td>
+                    <td>{{data.company}}</td>
+                    <td>{{data.email}}</td>
+                    <td>{{data.phone}}</td>
+                    <td>{{data.state}}</td>
+                    <td>{{data.favoriteFruit}}</td>
+                </tr>
+            </tbody><!-- END of Table Data-->
+        </table><!--/ END of Table / -->
+    </div><!--/ END of Controller / -->
+
+
+    <!-- /-------- //-----/ FOOTER CODE BELOW \------\\--------\ -->
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-heart"></span> from James Arthur Phillips I</p>
+      </div>
+    </div>
+
+   <!-- /-------- //-----/ JAVASCRIPTS BELOW \------\\--------\ -->
+
+    <script src="js/jquery-3.0.0"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min"></script>
+    <script src="js/app-controller.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+   <!-- endbuild -->
+</body>
+</html>

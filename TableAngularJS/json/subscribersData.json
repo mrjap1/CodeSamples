@@ -1,0 +1,159 @@
+{
+  "records":[
+ {
+      "name": "Chasity Avery",
+      "age": 23,
+      "eyeColor": "green",
+      "gender": "female",
+      "company": "EVIDENDS",
+      "email": "chasityavery@evidends.com",
+      "phone": "+1 (822) 527-2158",
+      "state": "Virgin Islands",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "name": "Peck Gray",
+      "age": 32,
+      "eyeColor": "brown",
+      "gender": "male",
+      "company": "INJOY",
+      "email": "peckgray@injoy.com",
+      "phone": "+1 (886) 494-3173",
+      "state": "Massachusetts",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Tonya Mitchell",
+      "age": 32,
+      "eyeColor": "blue",
+      "gender": "female",
+      "company": "LUDAK",
+      "email": "tonyamitchell@ludak.com",
+      "phone": "+1 (876) 508-3604",
+      "state": "Pennsylvania",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "name": "Karina Rivas",
+      "age": 37,
+      "eyeColor": "brown",
+      "name": "Karina Rivas",
+      "gender": "female",
+      "company": "SUREPLEX",
+      "email": "karinarivas@sureplex.com",
+      "phone": "+1 (979) 468-2279",
+      "state": "Georgia",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "name": "Jacquelyn Peck",
+      "age": 23,
+      "eyeColor": "brown",
+      "gender": "female",
+      "company": "QUARMONY",
+      "email": "jacquelynpeck@quarmony.com",
+      "phone": "+1 (951) 597-2504",
+      "state": "Wisconsin",
+      "favoriteFruit": "banana"
+    },
+    {
+      "name": "Vilma Anderson",
+      "age": 29,
+      "eyeColor": "blue",
+      "gender": "female",
+      "company": "NEXGENE",
+      "email": "vilmaanderson@nexgene.com",
+      "phone": "+1 (974) 570-3858",
+      "state": "Florida",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Aurora Matthews",
+      "age": 27,
+      "eyeColor": "green",
+      "gender": "female",
+      "company": "ESCHOIR",
+      "email": "auroramatthews@eschoir.com",
+      "phone": "+1 (879) 444-3757",
+      "state": "New Jersey",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Jillian Ingram",
+      "age": 40,
+      "eyeColor": "blue",
+      "gender": "female",
+      "company": "MOBILDATA",
+      "email": "jillianingram@mobildata.com",
+      "phone": "+1 (894) 444-3880",
+      "state": "West Virginia",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Jan Alvarez",
+      "age": 35,
+      "eyeColor": "blue",
+      "gender": "female",
+      "company": "KIGGLE",
+      "email": "janalvarez@kiggle.com",
+      "phone": "+1 (982) 434-2233",
+      "state": "Nevada",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "name": "Jones Alford",
+      "age": 27,
+      "eyeColor": "blue",
+      "gender": "male",
+      "company": "PROTODYNE",
+      "email": "jonesalford@protodyne.com",
+      "phone": "+1 (948) 512-3688",
+      "state": "Vermon",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Sargent Keith",
+      "age": 25,
+      "eyeColor": "green",
+      "gender": "male",
+      "company": "CYTRAK",
+      "email": "sargentkeith@cytrak.com",
+      "phone": "+1 (911) 481-3775",
+      "state": "Colorado",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Candy Black",
+      "age": 21,
+      "eyeColor": "green",
+      "gender": "female",
+      "company": "GEEKKO",
+      "email": "candyblack@geekko.com",
+      "phone": "+1 (895) 417-2853",
+      "state": "North Dakota",
+      "favoriteFruit": "apple"
+    },
+    {
+      "name": "Henry Warner",
+      "age": 21,
+      "eyeColor": "blue",
+      "gender": "male",
+      "company": "ZYTRAX",
+      "email": "henrywarner@zytrax.com",
+      "phone": "+1 (853) 525-3350",
+      "state": "Idaho",
+      "favoriteFruit": "banana"
+    },
+    {
+      "name": "Harvey Kitel",
+      "age": 77,
+      "eyeColor": "hazel",
+      "gender": "male",
+      "company": "BLUEWAYVE",
+      "email": "henrywarner@bluewayve.com",
+      "phone": "+1 (212) 725-3140",
+      "state": "New York",
+      "favoriteFruit": "tangerine"
+    }
+  ]
+}
