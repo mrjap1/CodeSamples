@@ -1,0 +1,52 @@
+/* CSS APP STYLES */ 
+ 
+
+/* FONT FOR H2 TAG STYLED  */
+
+
+html, body {
+   background: #222;   
+}
+
+/*html, body {
+  background-image: url("https://images7.alphacoders.com/320/320281.jpg");   
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
+/* FONT FOR H2 TAG STYLED  */
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 32px;
+  font-weight:800;
+  font-style: italic;
+  color: grey;
+}
+
+/* TODO LIST DONE DECLARED DONE */
+
+.done-true {
+  text-decoration: line-through;
+  color: crimson!important;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* CENTER FORM AND ALL ELEMENTS */
+
+.gocenter{
+  width: 412px!important;
+  height: auto;
+  padding: 30px;
+  margin: 40px auto!important;
+  background-color: beige;
+  border solid 1px #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; 
+  position: relative; 
+    z-index: 2
+ }
+
