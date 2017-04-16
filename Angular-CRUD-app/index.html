@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="Angular.StaffMember">
+  <head>
+    <meta chartset="utf-8">
+    <title>ANGULAR JS CRUD DEMO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angular js Crud example">
+    <meta name="keywords" content="HTML,CSS,JavaScript,angular,bootstrap">
+    <meta name="author" content="James Arthur Phillips I">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <script src="js/staff-info.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-controller="StaffCtrl">
+    <div class="bkwt col-xs-8 col-xs-offset-2 ">
+        <h2>Staff Details</h2>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Phone</th>
+                <th>IsActive</th>
+                <th>Actions</th>
+            </tr>
+            <tr ng-repeat="item in model">
+                <td>{{item.Name}}</td>
+                <td>{{item.City}}</td>
+                <td>{{item.Phone}}</td>
+                <td><input type="checkbox" ng-model="item.IsActive" disabled /></td>
+                <td>
+                    <button class="btn btn-primary" ng-click="edit(item)">Edit</button>
+                    <button class="btn btn-danger" ng-click="delete(item)">Delete</button>
+                </td>
+            </tr>
+
+             <!-- // THIS PART ONLY SHOWS UP WHEN CLICK THE " Add New Record " BUTTON \\ -->
+
+            <tr ng-if="showForm">
+                <td>
+                    <input type="text" placeholder="Full Name" class="form-control" ng-model="newData.Staff.Name" required />
+                </td>
+                <td>
+                    <input type="text" placeholder="City" class="form-control" ng-model="newData.Staff.City" required />
+                </td>
+                <td>
+                    <input type="text" placeholder="Phone" class="form-control" ng-model="newData.Staff.Phone" required />
+                </td>
+                <td>
+                    <input type="checkbox" ng-model="newData.Staff.IsActive" required />
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" ng-click="add()" required>Add</button>
+                    <button type="button" class="btn btn-default" ng-click="IsShowForm(false)"required>Cancel</button>
+                </td>
+            </tr>
+        </table>
+        <button type="button" class="btn btn-primary" ng-click="IsShowForm(true)">Add New Record</button>&nbsp;&nbsp;<span class="count">Total Staff Members: </span><span class="count2">{{model.length}}</span>
+    </div>
+</body>
+</html>

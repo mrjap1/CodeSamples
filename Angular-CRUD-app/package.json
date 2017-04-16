@@ -1,0 +1,17 @@
+{
+  "name": "ang-crud-demo",
+  "version": "1.0.0",
+  "description": "CRUD angular js application... staff data",
+  "main": "staff-info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Mr. James Arthur Phillips I",
+  "license": "ISC"
+}
